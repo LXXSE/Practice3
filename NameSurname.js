@@ -1,5 +1,5 @@
-let letName = "Тейп";
-let letSurname = "Носок";
+let letName = "тейп";
+let letSurname = "носок";
 
 Name = letName.toLowerCase();
 Name1 = Name.substring(1);
@@ -13,7 +13,7 @@ Surname = Surname.substring(0,1);
 Surname = Surname.toUpperCase();
 Surname2 = Surname + Surname1
 
-x = letName == Name2 && Surname2 == letSurname ? console.log("Имя и фамилия остались без изменений ") : console.log("Имя или фамилия преобразованы")
+x = letName == Name2 && Surname2 == letSurname ? console.log("Имя и фамилия остались без изменений ") : console.log("Имя и/или фамилия преобразованы")
 
 
 //if (letName == Name2 && Surname2 == letSurname){
@@ -24,3 +24,4 @@ x = letName == Name2 && Surname2 == letSurname ? console.log("Имя и фами
 //}
 console.log(Name2 + " " + Surname2)
 
+// ??? mmr
