@@ -25,3 +25,4 @@ x = letName == Name2 && Surname2 == letSurname ? console.log("Имя и фами
 console.log(Name2 + " " + Surname2)
 
 // ok, thats all 
+//
